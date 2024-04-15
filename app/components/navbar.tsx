@@ -22,17 +22,17 @@ const NavBar: React.FC = () => {
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>
                 <Nav className="ml-auto" navbar>
-                    <NavItem>
-                        <NavLink href='/'>Home</NavLink>
+                    <NavItem className="group transition duration-300">
+                        <NavLink href='/'>Home <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span></NavLink>
                     </NavItem>
-                    <NavItem>
-                        <NavLink href='/about'>About</NavLink>
+                    <NavItem className="group transition duration-300">
+                        <NavLink href='/about'>About <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span></NavLink>
                     </NavItem>
-                    <NavItem>
-                        <NavLink>Projects</NavLink>
+                    <NavItem className="group transition duration-300">
+                        <NavLink href="/projects">Projects <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span></NavLink>
                     </NavItem>
-                    <NavItem>
-                        <NavLink>Contact</NavLink>
+                    <NavItem className="group transition duration-300">
+                        <NavLink href="/contact">Contact <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span></NavLink>
                     </NavItem>
                     <NavItem className='flex sm:hidden'>
                         <Link href="https://github.com/robinrswanson" passHref>
