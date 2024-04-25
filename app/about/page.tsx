@@ -8,7 +8,7 @@ export default function About() {
         <Col xs="12" md="6" className="text-white md:flex flex-col justify-center mb-2 md:mb-0">
           <h1>About Me</h1>
           <p>
-            Hi, I'm Robin Swanson, a Vancouver native with Japanese and Canadian roots, studying at the University of Toronto. I'm passionate about software engineering and AI, and I'll be heading to Waseda University in Japan for an exchange year soon. Outside tech, I love soccer, Taekwondo, manga, and exploring new places.
+            Hi, I&apos;m Robin Swanson, a Vancouver native with Japanese and Canadian roots, studying at the University of Toronto. I&apos;m passionate about software engineering and AI, and I&apos;ll be heading to Waseda University in Japan for an exchange year soon. Outside tech, I love soccer, Taekwondo, manga, and exploring new places.
           </p>
         </Col>
         <Col xs="12" md="6" className="flex justify-center items-center mt-2">

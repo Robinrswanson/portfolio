@@ -55,7 +55,7 @@ export default function Projects() {
                   Official Club Website for UTJA
                   </CardSubtitle>
                   <CardText>
-                  The University of Toronto Japan Association's official club website is meticulously crafted using HTML, CSS, and Javascript. Notably, a 12-Col grid system is implemented for a well-organized layout. The site features responsive design and employs jQuery for optimal user experience across devices.
+                  The University of Toronto Japan Association&apos;s official club website is meticulously crafted using HTML, CSS, and Javascript. Notably, a 12-Col grid system is implemented for a well-organized layout. The site features responsive design and employs jQuery for optimal user experience across devices.
                   </CardText>
               </CardBody>
             </Card>
