@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} bg-background`}>
-      <Container fluid={true} className='max-w-screen-lg flex flex-col min-h-screen'>
+      <Container fluid={true} className='max-w-screen-lg flex flex-col min-h-screen max-h-screen'>
         <NavBar />
         <div className="flex flex-grow">
           <SideNav />
