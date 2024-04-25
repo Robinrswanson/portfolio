@@ -4,7 +4,7 @@ import { Container, Row, Col, Card, CardBody, CardTitle, CardSubtitle, CardText 
 
 export default function Projects() {
   return (
-    <Container className="h-full overflow-y-auto" fluid>
+    <Container className="overflow-y-auto"  style={{ height: 'calc(100vh - 58px - 64px)' }} fluid>
       <Row className='my-2'>
         <Col xs="12" md="6" className='flex justify-center'>
           <Card className='max-w-sm my-2'>
